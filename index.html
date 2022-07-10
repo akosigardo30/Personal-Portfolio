@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:800px)"
+      href="tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:530px)"
+      href="phone.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <div class="main">
+        <h1 class="headings">
+          I AM <br />
+          ANDREW CRUZ
+        </h1>
+        <button class="btn">Hire Me</button>
+      </div>
+    </section>
+
+    <section id="about">
+      <div id="pic">
+        <h1 class="headings">ABOUT ME</h1>
+        <img src="background2.jpg" alt="" />
+        <div id="intro">
+          <h2>ANDREW CRUZ</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
+            animi laborum deleniti ea enim doloribus ratione neque in sunt
+            provident eligendi possimus quis quasi, architecto deserunt non
+            vitae, voluptatum labore? Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Natus, animi laborum deleniti ea enim doloribus
+            ratione neque in sunt provident eligendi possimus quis quasi,
+            architecto deserunt non vitae, voluptatum labore? Lorem ipsum dolor
+            sit, amet consectetur adipisicing elit. Natus, animi laborum
+            deleniti ea enim doloribus ratione neque in sunt provident eligendi
+            possimus quis quasi, architecto deserunt non vitae, voluptatum
+            labore?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h1 class="headings">Portfolio</h1>
+      <div class="gallery">
+        <img src="background3.jpg" alt="" />
+        <img src="background4.jpg" alt="" />
+        <img src="background5.jpg" alt="" />
+        <img src="background6.jpg" alt="" />
+        <img src="background7.jpg" alt="" />
+        <img src="background8.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="services">
+      <h1 class="headings">Services</h1>
+      <div class="row">
+        <div class="box">
+          <img src="world-wide-web.png" alt="" />
+          <h1 class="headings">Website Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            eos necessitatibus dolorem id? Ratione officia eos, natus id modi
+            delectus rerum dolorum hic rem perspiciatis sed! Vitae obcaecati
+            odio quas.
+          </p>
+        </div>
+        <div class="box">
+          <img src="website.png" alt="" />
+          <h1 class="headings">UX/UI Design</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            eos necessitatibus dolorem id? Ratione officia eos, natus id modi
+            delectus rerum dolorum hic rem perspiciatis sed! Vitae obcaecati
+            odio quas.
+          </p>
+        </div>
+        <div class="box">
+          <img src="social-media.png" alt="" />
+          <h1 class="headings">Digital Marketing</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            eos necessitatibus dolorem id? Ratione officia eos, natus id modi
+            delectus rerum dolorum hic rem perspiciatis sed! Vitae obcaecati
+            odio quas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1 class="headings">Contact</h1>
+      <form action="" class="form">
+        <input
+          type="text"
+          name="name"
+          class="input"
+          placeholder="Enter Your Name"
+        />
+        <input
+          type="email"
+          name="email"
+          class="input"
+          placeholder="Enter Your Email"
+        />
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Enter Your Message"
+        ></textarea>
+        <input type="submit" value="Send" id="send" />
+      </form>
+    </section>
+  </body>
+</html>
